@@ -9,3 +9,9 @@ The repository is divided in different tests. Each test have a goal of increasin
 ## Analysis scripts
 
 The processing of the data and the analysis of the time-series is developed in a jupyter notebook file for each test "ts-analysis.ipynb". This files are only found from Test 4 since is when the analysis part started.
+
+## Requirements
+
+1. In order to run the YAFSsimulation scripts is necessary to have python2.7 and the libraries specified in the YAFS project repository, incluiding the YAFS library.
+
+2. In order to run the analysis files is necessary to have python3.6 or later version and tensorflow, pandas, numpy and matplotlib libraries. 
