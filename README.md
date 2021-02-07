@@ -22,8 +22,12 @@ Some of the extra features included in the last tests are noisy data, multivaria
 
 The processing of the data and the analysis of the time-series is developed in a jupyter notebook file for each test "ts-analysis.ipynb". This files are only found from Test 4 since is when the analysis part started. As stated, they attempt to estimate future workload in the cluster. Moreover, the LSTM are built to identify possibles patterns in the workload telemtry data that could lead to a node overload scenario.
 
-## Requirements
+## Examples
 
-1. In order to run the YAFSsimulation scripts is necessary to have python2.7 and the libraries specified in the YAFS project repository, incluiding the YAFS library.
+In this section two videos representing the experiment results are presented. In the video it is possible to observe the previously seen telemetry data of the cluster that is used to perform the future estimation of the workload in one of the nodes. This prediction is compared with the actual future value of the workload in the node at the moment of predicting.
 
-2. In order to run the analysis files is necessary to have python3.6 or later version and tensorflow, pandas, numpy and matplotlib libraries. 
+Moreover, in the videos it is possible to observe that the model is capable of identifying a future event of overload in the node. These results show that cluster telemtry data in combination with Machine Learning models can be useful to prevent and reduce computing clusters down time.
+
+![alt text](/cluster-workload-estimator/simulation results/video 1/gif.gif "Example 1")
+
+![alt text](cluster-workload-estimator/simulation results/video 2/gif.gif "Example 2")
