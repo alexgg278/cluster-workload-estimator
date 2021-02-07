@@ -28,6 +28,6 @@ In this section two videos representing the experiment results are presented. In
 
 Moreover, in the videos it is possible to observe that the model is capable of identifying a future event of overload in the node. These results show that cluster telemtry data in combination with Machine Learning models can be useful to prevent and reduce computing clusters down time.
 
-![alt text](/cluster-workload-estimator/simulation results/video 1/gif.gif "Example 1")
+![alt text](/simulation results/video 1/gif.gif "Example 1")
 
-![alt text](cluster-workload-estimator/simulation results/video 2/gif.gif "Example 2")
+![alt text](/simulation results/video 2/gif.gif "Example 2")
